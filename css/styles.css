@@ -40,14 +40,14 @@ body {
 
 @media (max-width: 89.9375em) {
   .pack {
-    max-width: 600px;
+    max-width: 37.5rem;
   }
 }
 
 @media (min-width: 37.5em) {
   .pack {
-    -webkit-box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.15);
-            box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0rem 0rem 2.1875rem rgba(0, 0, 0, 0.15);
+            box-shadow: 0rem 0rem 2.1875rem rgba(0, 0, 0, 0.15);
   }
 }
 
@@ -60,8 +60,8 @@ body {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-    -webkit-box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.15);
-            box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0rem 0rem 2.1875rem rgba(0, 0, 0, 0.15);
+            box-shadow: 0rem 0rem 2.1875rem rgba(0, 0, 0, 0.15);
   }
 }
 
@@ -85,14 +85,14 @@ body {
 @media (max-width: 89.9375em) {
   .model-img {
     width: 100vw;
-    max-width: 600px;
+    max-width: 37.5rem;
   }
 }
 
 @media (min-width: 89.9375em) {
   .model-img {
-    width: 610px;
-    height: 800px;
+    width: 38.125rem;
+    height: 50rem;
     background: url(/images/hero-desktop.jpg) no-repeat;
     background-size: cover;
   }
@@ -105,22 +105,22 @@ body {
 @media (min-width: 89.9375em) {
   .info {
     background: url(/images/bg-pattern-desktop.svg), linear-gradient(135deg, white, #fff5f5);
-    padding: 76px 168px 161px 164px;
-    height: 800px;
-    width: 830px;
+    padding: 4.75rem 10.5rem 10.0625rem 10.25rem;
+    height: 50rem;
+    width: 51.875rem;
   }
 }
 
 .logo2 {
   position: absolute;
-  top: 33px;
+  top: 2.0625rem;
   left: 1.625rem;
   cursor: pointer;
 }
 
 @media (min-width: 37.5em) {
   .logo2 {
-    left: calc(26px + (100vw - 600px) / 2);
+    left: calc(1.625rem + (100vw - 37.5rem) / 2);
   }
 }
 
@@ -150,8 +150,8 @@ body {
 }
 
 .content-h1 {
-  padding-top: 64px;
-  padding-bottom: 28px;
+  padding-top: 4rem;
+  padding-bottom: 1.75rem;
   line-height: 1.15;
   text-transform: uppercase;
 }
@@ -176,10 +176,10 @@ body {
 
 @media (min-width: 89.9375em) {
   .content-h1 {
-    font-size: 50px;
-    padding-top: 128px;
+    font-size: 3.125rem;
+    padding-top: 8rem;
     line-height: 1.1;
-    padding-bottom: 36px;
+    padding-bottom: 2.25rem;
   }
 }
 
@@ -206,7 +206,7 @@ body {
 
 @media (min-width: 89.9375em) {
   .content-p {
-    padding-right: 50px;
+    padding-right: 3.125rem;
     line-height: 1.5;
   }
 }
@@ -237,10 +237,10 @@ body {
   width: 19.125rem;
   height: 3rem;
   border-radius: 1.5rem;
-  padding-left: 20px;
-  padding-top: 5px;
+  padding-left: 1.25rem;
+  padding-top: 0.3125rem;
   border-color: #ce9797;
-  border: 2px solid rgba(206, 151, 151, 0.5);
+  border: 0.125rem solid rgba(206, 151, 151, 0.5);
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -256,22 +256,22 @@ body {
 @media (max-width: 89.9375em) {
   .email-box input {
     width: 80vw;
-    max-width: 480px;
+    max-width: 30rem;
   }
 }
 
 @media (min-width: 89.9375em) {
   .email-box input {
-    width: 499px;
-    height: 56px;
-    border-radius: 28px;
-    padding-left: 40px;
+    width: 31.1875rem;
+    height: 3.5rem;
+    border-radius: 1.75rem;
+    padding-left: 2.5rem;
   }
 }
 
 @media (min-width: 89.9375em) {
   .email-box input {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 
@@ -287,8 +287,8 @@ body {
 
 .email-invalid {
   position: relative;
-  top: -36px;
-  left: 70px;
+  top: -2.25rem;
+  left: 4.375rem;
 }
 
 @media (max-width: 89.9375em) {
@@ -310,72 +310,72 @@ body {
 @media (min-width: 89.9375em) {
   .email-invalid-icon {
     position: relative;
-    left: 294px;
-    top: -18px;
+    left: 18.375rem;
+    top: -1.125rem;
   }
 }
 
 .email-invalid-text {
   color: #f96262;
   position: relative;
-  top: -64px;
-  right: 29px;
+  top: -4rem;
+  right: 1.8125rem;
   visibility: hidden;
 }
 
 @media (min-width: 89.9375em) {
   .email-invalid-text {
-    right: -40px;
-    top: -47px;
+    right: -2.5rem;
+    top: -2.9375rem;
   }
 }
 
 .email-valid-icon {
-  left: -29px;
+  left: -1.8125rem;
   position: relative;
-  width: 24px;
+  width: 1.5rem;
   visibility: hidden;
 }
 
 @media (min-width: 89.9375em) {
   .email-valid-icon {
-    left: 265px;
-    top: -18px;
+    left: 16.5625rem;
+    top: -1.125rem;
   }
 }
 
 .email-valid-text {
   color: #47c727;
   position: relative;
-  top: -82px;
-  right: 29px;
+  top: -5.125rem;
+  right: 1.8125rem;
   visibility: hidden;
 }
 
 @media (min-width: 89.9375em) {
   .email-valid-text {
-    right: -40px;
-    top: -66px;
+    right: -2.5rem;
+    top: -4.125rem;
   }
 }
 
 .email button {
   position: relative;
   cursor: pointer;
-  top: -77px;
-  left: 124px;
+  top: -4.8125rem;
+  left: 7.75rem;
   width: 4rem;
   height: 3rem;
-  border-radius: 40px;
+  border-radius: 2.5rem;
   border: none;
   background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
-  -webkit-box-shadow: 0 10px 25px #f8bfbf;
-          box-shadow: 0 10px 25px #f8bfbf;
+  -webkit-box-shadow: 0 0.625rem 1.5625rem #f8bfbf;
+          box-shadow: 0 0.625rem 1.5625rem #f8bfbf;
 }
 
 @media (max-width: 89.9375em) {
   .email button {
-    left: 210px;
+    left: 13.125rem;
   }
 }
 
@@ -387,10 +387,10 @@ body {
 
 @media (min-width: 89.9375em) {
   .email button {
-    width: 100px;
-    height: 56px;
-    top: -57px;
-    left: 344px;
+    width: 6.25rem;
+    height: 3.5rem;
+    top: -3.5625rem;
+    left: 21.5rem;
   }
 }
 
@@ -407,6 +407,6 @@ body {
 }
 
 .soft-red-border {
-  border: 2px solid #f96262 !important;
+  border: 0.125rem solid #f96262 !important;
 }
 /*# sourceMappingURL=styles.css.map */
